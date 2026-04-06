@@ -14,6 +14,14 @@ Claude signals genuine completion by outputting `<done/>` as the very last line 
 
 ## Installation
 
+**Via skills:**
+
+```bash
+npx skills add onmyway133/cmon
+```
+
+**Via marketplace:**
+
 ```bash
 claude plugin marketplace add onmyway133/cmon
 ```

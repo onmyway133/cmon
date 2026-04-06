@@ -1,0 +1,20 @@
+{
+  "name": "cmon",
+  "owner": {
+    "name": "Khoa Pham"
+  },
+  "metadata": {
+    "description": "cmon — autonomous in-session loop plugin for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cmon",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/onmyway133/cmon.git"
+      },
+      "description": "Autonomous in-session loop — keeps Claude working until the task is truly done. Output <done/> to complete."
+    }
+  ]
+}

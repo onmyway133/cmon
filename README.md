@@ -76,23 +76,6 @@ Both `.cmon.md` and `.cmon-progress.md` are gitignored — they're runtime files
 
 cmon is designed to be simpler to invoke and smarter about continuation — each iteration knows what previous iterations accomplished.
 
-## File Structure
-
-```
-cmon/
-├── .claude-plugin/
-│   └── plugin.json       Plugin metadata
-├── commands/
-│   ├── cmon.md           /cmon command definition
-│   └── cancel-cmon.md    /cancel-cmon command definition
-├── hooks/
-│   ├── hooks.json        Registers the Stop hook
-│   └── stop-hook.sh      Loop engine — intercepts exit, checks <done/>
-├── scripts/
-│   └── setup-cmon.sh     Creates .claude/cmon.local.md state file
-└── .gitignore
-```
-
 ## License
 
 MIT

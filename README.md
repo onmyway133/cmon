@@ -14,20 +14,14 @@ Claude signals genuine completion by outputting `<done/>` as the very last line 
 
 ## Installation
 
-### From GitHub
-
 ```bash
 claude plugin marketplace add onmyway133/cmon
-claude plugin install cmon
 ```
 
-Restart Claude Code to activate.
+Then install the plugin:
 
-### From a local path
-
-```bash
-claude plugin marketplace add /path/to/cmon
-claude plugin install cmon
+```
+/plugin install cmon@onmyway133
 ```
 
 Restart Claude Code to activate.

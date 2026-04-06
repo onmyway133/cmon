@@ -1,0 +1,10 @@
+{
+  "name": "cmon",
+  "version": "1.0.0",
+  "description": "Autonomous in-session loop — keeps Claude working until the task is truly done. Output <done/> to complete.",
+  "author": {
+    "name": "Khoa Pham"
+  },
+  "repository": "https://github.com/onmyway133/cmon",
+  "keywords": ["loop", "autonomous", "agent", "cmon", "non-stop"]
+}

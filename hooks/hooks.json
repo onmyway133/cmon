@@ -1,0 +1,15 @@
+{
+  "description": "cmon stop hook — intercepts session exit and continues the loop until <done/> is output",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# cmon runtime files (project-scoped, not committed)
+.cmon-progress.md
+.cmon.md
+
+# Claude local state
+.claude/cmon.local.md
+.claude/cmon.local.md.tmp.*
+
+# OS
+.DS_Store
